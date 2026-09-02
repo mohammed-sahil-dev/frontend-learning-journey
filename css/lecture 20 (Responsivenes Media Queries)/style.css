@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    font-size: 2rem;
+
+}
+
+  @media (min-width : 575px) and (max-width:600px) {
+
+  .wrapper {
+     
+        /* background-color:rgba(40, 11, 89); */
+        background-color: aqua;
+    }
+    
+}
+
+ @media (min-width : 576px) and (max-width : 700px) {
+    .wrapper {
+        background-color: rgba(57, 164, 33, 0.422);
+        font-size: 5rem;
+    }
+    
+ }
