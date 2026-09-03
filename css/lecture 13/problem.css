@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border:1px,solid black;
+    /* display: inline-block; */
+
+}
+.container{
+    border: 1px,solid red;
+    display: flex; 
+    flex-direction: row;
+    height: 100vh;
+      justify-content: center;  
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: end; */
+    /* align-items: start; */
+    align-items: center; 
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
