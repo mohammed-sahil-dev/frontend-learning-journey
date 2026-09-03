@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.box {
+    width: 170px;
+    height: 120px;
+     text-align: center; 
+    padding: 40px 0px; 
+    /* border-radius: 100px; */
+    /* background-color: brown;  */
+    background-color: chartreuse; 
+    /* transition-duration: 2s; */
+    /* transition-property:all;   */
+    /* transition-timing-function:; */
+    /* border: 1px solid; */
+ /* transform: rotate(150deg); */
+    /* transform: scale(50%,50%); */
+
+
+
+
+      /* animation-name:sahil; */
+       animation-name: Abrar; 
+     animation-duration:4s; 
+     animation-iteration-count: infinite;
+     position: absolute;
+     
+
+ 
+}  
+  @keyframes sahil {
+    from { 
+        background-color:red;
+       /* transform: translate(250px,300px); */
+    }
+
+      to {
+     background-color: blueviolet;
+     
+     
+     
+    }
+    
+  }
+  @keyframes Abrar {
+
+    0%{ background-color: aqua;
+       left: 0;
+    }
+
+    75% {background-color: blue;
+        /* right: 25%; */
+         transform: rotate(230deg);
+    transform: translate(250px,300px);  
+    transform: rotate(150deg);
+
+         
+
+    }
+    25%{background-color: brown;
+        transform: scale(50% 2.5%);
+        /* right:50%; */
+         /* transform: scale(1.7%); */
+        border-radius: 50%; 
+        transform: rotate(250deg);
+            transform: translate(250px,300px);  
+
+
+
+    }
+
+    100% {background-color: chartreuse;
+        left:70%;
+        transform: translate(400px,400px);
+        transform: scale(3%,3%);
+        /* transform: skew(20px); */
+        /* transform: translate(300px.300px); */
+
+
+     }
+    
+  }
+
+
+
+
+
+
+.box:hover {
+    /* background-color: red; */
+     width:1000px;
+     height: 500px; 
+    /* border: 1px solid; */
+     /* transform:translate(200px,200px) scale(1.3) rotate(250deg) skew(20deg);  */
+    
+
+  
+
+
+
+
+
+
+
+
+
+}
+
+/* 
+
+.linear {
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1); 
+    background-color: aquamarine;
+
+}
+.ease {
+ transition-timing-function:ease;
+ background-color: blue;
+}
+.ease-in {
+ transition-timing-function:ease-in;
+ background-color:yellowgreen;
+}
+.ease-out {
+ transition-timing-function:ease-out;
+ background-color: chocolate;
+}
+.ease-in-out {
+ transition-timing-function:ease-in-out;
+ background-color:darkblue; */
+/* } */
